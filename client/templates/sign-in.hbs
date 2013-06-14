@@ -1,0 +1,17 @@
+<h1>Sign in</h1>
+
+<p class="error">{{errorMessage}}</p>
+
+<label>
+  E-mail-address
+  {{view Ember.TextField placeholder="mikkel@awesome.net" type="email" valueBinding="email"}}
+</label>
+
+<label>
+  Password
+  {{view Ember.TextField placeholder="s1kr3t" type="password" valueBinding="password"}}
+</label>
+
+<button class="primary">
+  Sign in
+</button>

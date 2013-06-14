@@ -1,0 +1,11 @@
+// Styles that apply to the whole page.
+
+// See http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+* {
+  @include box-sizing(border-box);
+}
+
+body {
+  background-color: tint($primary, 95%);
+  color: $black;
+}

@@ -2,9 +2,10 @@
   "name": "pritok",
   "version": "0.0.0",
   "description": "Simple inbox management app.",
+  "author": "Mikkel Hoegh <mikkel@hoegh.org> (http://mikkel.hoegh.org/)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": ">=0.8.0"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,14 @@
     "mail",
     "inbox"
   ],
-  "author": "Mikkel Hoegh <mikkel@hoegh.org> (http://mikkel.hoegh.org/)",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "dependencies": {
+    "imap": "~0.7.11",
+    "mimelib": "~0.2.12",
+    "mailparser": "~0.3.6",
+    "socketstream": "~0.3.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
 }

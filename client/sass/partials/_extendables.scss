@@ -1,0 +1,21 @@
+// Extendables.
+
+%narrow-page {
+  @include border-radius;
+  @include box-shadow($black, 5px, 5px);
+  @include clearfix;
+  background-color: $white;
+  border: 1px solid $primary;
+  display: block;
+  max-width: 250px;
+  margin: 3em auto;
+  padding: 0.6em;
+
+  .error {
+    background-color: tint($error, 80%);
+    color: $error;
+    line-height: 2em;
+    margin: 0.6em -0.6em;
+    text-indent: 0.6em;
+  }
+}

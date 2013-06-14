@@ -1,0 +1,23 @@
+// Variables and setup for our Sass styles.
+
+// Configuration of colour schemer.
+$cs-primary: #00b4ff;
+$cs-scheme: 'mono';
+
+// Colour variables to be used on the site.
+$primary: cs-primary();
+$secondary: cs-secondary();
+$tertiary: cs-tertiary();
+$quadrary: cs-quadrary();
+
+$white: tint($primary, 98%);
+$black: shade($primary, 70%);
+$shadow: rgba($black, 0.7);
+$error: #b20425;
+
+// Shadows.
+$default-box-shadow-color: $shadow;
+
+// Sassy buttons.
+$sb-base-color: $primary;
+

@@ -1,0 +1,7 @@
+<h1>Mailbox status: {{mailboxName}}</h1>
+
+{{#if dataLoaded}}
+  <p>{{messageCount}} messages, {{unreadCount}} unread.</p>
+{{else}}
+  <p class="placeholder">Loading…</p>
+{{/if}}
